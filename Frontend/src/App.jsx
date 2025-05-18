@@ -2,6 +2,7 @@ import React from "react";
 import Home from "./Home/Home";
 import Course from "./Course/course";
 import { Route, Routes } from "react-router-dom";
+import Signup from "./Components/Signup";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Routes>
           <Route path="/" element={ <Home />} />
         <Route path="/courses" element={ <Course />} />
+        <Route path="/signup" element={ <Signup />} />
       </Routes>
        </div>
     </>
