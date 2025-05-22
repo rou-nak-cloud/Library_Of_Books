@@ -1,8 +1,12 @@
 import React from "react";
+import { Route, Routes } from "react-router-dom";
 import Home from "./Home/Home";
 import Course from "./Course/course";
-import { Route, Routes } from "react-router-dom";
 import Signup from "./Components/Signup";
+import Contact from "./Contact/Contact";
+import About from "./Components/About";
+
+
 
 const App = () => {
   return (
@@ -11,6 +15,8 @@ const App = () => {
       <Routes>
           <Route path="/" element={ <Home />} />
         <Route path="/courses" element={ <Course />} />
+        <Route path="/contacts" element={ <Contact />} />
+        <Route path="/about" element={ <About />} />
         <Route path="/signup" element={ <Signup />} />
       </Routes>
        </div>
