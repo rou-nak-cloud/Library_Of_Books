@@ -29,7 +29,7 @@ A beautifully crafted frontend application for book lovers to explore, discover,
 
 ## 📸 Some Frontend Screenshots
 
-![Book Heaven (Dark version) Screenshot 1](.Frontend/Screenshots/dark-home.png)
+![Book Heaven (Dark version) Screenshot 1](Frontend/Screenshots/dark-home.png)
 ![Book Heaven (Dark version) Screenshot 4](./Screenshots/dark-books.png)
 ![Book Heaven (Light version) Screenshot 2](./Screenshots/light-home.png)
 ![Book Heaven (Mobile view) Screenshot 3](./Screenshots/mobile-view.png)
