@@ -2,7 +2,7 @@
 
 # 📚 BookShelf — A Modern Book Discovery Frontend
 
-A beautifully crafted frontend application for book lovers to explore, discover, and organize their favorite reads. Built using **React**, **React Hooks**, **Tailwind CSS**, and **DaisyUI** for rapid UI development and a smooth user experience.
+A beautifully crafted frontend application for book lovers to explore, discover their favorite reads. Built using **React**, **React Hooks**, **Tailwind CSS**, and **DaisyUI** for rapid UI development and a smooth user experience.
 
 ---
 
