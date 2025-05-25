@@ -1,4 +1,4 @@
-## Wait!!!!  UNDER CONSTRUCTION
+
 
 # 📚 BookShelf — A Modern Book Discovery Frontend
 
