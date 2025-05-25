@@ -4,8 +4,8 @@ const Cards = ( {item}) => {
     // console.log(item)
   return (
     <>
-     <div className='mt-8 my-7 p-3'>
-        <div className="card bg-base-200 w-105 shadow-2xl cursor-pointer hover:scale-102 duration-400 dark:bg-slate-900 dark:text-white">
+     <div className='mt-8 my-5 p-1'>
+        <div className="card bg-base-200 w-95 shadow-2xl cursor-pointer hover:scale-102 duration-400 dark:bg-slate-900 dark:text-white">
   <figure>
     <img
       src={item.image}

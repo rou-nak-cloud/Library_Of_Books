@@ -1,10 +1,27 @@
 import React from 'react'
-import list from '../../public/list.json'
+// import list from '../../public/list.json'  now using backend
+import axios from 'axios'
 import Cards from './Cards'
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
+import { useEffect } from 'react'
 
 const Courses = () => {
+    const [book, setBook] = useState([])
+    useEffect(() => {
+        const getBook = async ()=> {
+            try {
+                const response = await axios.get("http://localhost:3001/api/v1/book")
+                // console.log(response.data)
+                setBook(response.data)
+            } catch (error) {
+                console.log(error)
+            }
+        }
+        getBook();
+    },[])
   return (
+
     <>
        <div className='min-h-screen dark:text-black'>
         <div className='max-w-screen-2xl container md:px-20 px-6 mx-auto'>
@@ -17,7 +34,7 @@ const Courses = () => {
             </div>
             <div className='cards mt-10 grid grid-cols-1 md:grid-cols-3'>
                 {
-                    list.map((item)=>(
+                    book.map((item)=>(
                         <Cards item={item} key={item.id} />
                     ))
                 }
